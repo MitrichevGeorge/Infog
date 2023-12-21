@@ -8,6 +8,4 @@ def func(n):
       if j > 1:
         krol.append(0)
     krol = list(map(grow,krol))
-    while 4 in krol:
-      krol.delete(4)
   return len(krol)
